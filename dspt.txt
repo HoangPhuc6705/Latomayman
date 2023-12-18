@@ -1,0 +1,19 @@
+danh sách phần thưởng
+1x kẹo(35/50 ô), đánh dấu là số 1
+2x kẹo (5/50 ô), đánh dấu là số 2
+3x kẹo (2/50 ô), đánh dấu là số 3
+1x lượt mở free (8/50 ô), đánh dấu là số 4
+Thuật toán
+1 mảng 10x5 chứa phần thưởng
+1 mảng 10x5 điều kiện (true)
+B1:
+  Bắt đầu với phần thưởng (1)
+  Lặp 30 lần tương ứng với 30 ô (1)
+  Random vị trí trong ma trận
+  Random vị trí nào thì đặt quả ở vị trí đó và đặt vị trí đó là false (để không bị random trùng)
+  Lặp lại với phần thưởng (2), (3), (4)
+B2:
+  Tham chiếu lên trình duyệt
+  Nếu đã chọn ô nào rồi thì ẩn đi ô đó
+B3:
+  Hiện thông báo đã trúng thưởng
